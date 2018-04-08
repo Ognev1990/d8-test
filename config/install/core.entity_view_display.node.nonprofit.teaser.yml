@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.nonprofit.field_city
+    - field.field.node.nonprofit.field_mission
+    - field.field.node.nonprofit.field_website
+    - node.type.nonprofit
+  module:
+    - user
+id: node.nonprofit.teaser
+targetEntityType: node
+bundle: nonprofit
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_city: true
+  field_mission: true
+  field_website: true

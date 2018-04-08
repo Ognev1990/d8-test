@@ -1,0 +1,15 @@
+name: Nonprofit
+description: 'Provides Nonprofit content type and related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - ds
+  - field
+  - link
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - text
+  - user
+  - views
